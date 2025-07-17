@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>India Tourism Budget Planner</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2c3f5ec45.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1><i class="fas fa-map-marked-alt"></i> India Tourism Budget Planner</h1>
+
+    <label for="place">Select a Place:</label>
+    <select id="place">
+      <option value="Agra">Agra</option>
+      <option value="Goa">Goa</option>
+      <option value="Manali">Manali</option>
+      <option value="Jaipur">Jaipur</option>
+      <option value="Kolkata">Kolkata</option>
+      <option value="Kerala">Kerala</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Shimla">Shimla</option>
+    </select>
+
+    <label for="days">Enter Number of Days:</label>
+    <input type="number" id="days" value="1" min="1"/>
+
+    <button onclick="calculateBudget()"><i class="fas fa-calculator"></i> Calculate Budget</button>
+
+    <div id="result" style="display:none;"></div>
+    
+    <iframe id="map" loading="lazy" style="display:none;"></iframe>
+
+    <div class="btn-row">
+      <button onclick="searchHotels()" style="display:none;" id="hotelBtn">
+        <i class="fas fa-hotel"></i> Find Hotels
+      </button>
+      <!-- <button onclick="window.print()" style="display:none;" id="printBtn">
+        <i class="fas fa-print"></i> Print
+      </button> -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
