@@ -18,7 +18,7 @@ A simple and responsive web app that helps users calculate the expected budget f
 
 ## 🚀 Live Demo
 
-🔗 https://ASHIRVAD-MISHRA.github.io/tourism-budget
+🔗 https://ASHIRVAD-MISHRA.github.io/Tourist-Budget
 
 ---
 
@@ -35,7 +35,7 @@ A simple and responsive web app that helps users calculate the expected budget f
 ## 📦 How to Run Locally
 
 ```bash
-git clone https://github.com/ASHIRVAD-MISHRA/tourism-budget.git
+git clone https://github.com/ASHIRVAD-MISHRA/Tourist-Budget.git
 ```
 
 2. Open the folder in VS Code  
