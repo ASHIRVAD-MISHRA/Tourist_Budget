@@ -18,7 +18,7 @@ A simple and responsive web app that helps users calculate the expected budget f
 
 ## 🚀 Live Demo
 
-🔗 https://ASHIRVAD-MISHRA.github.io/Tourist-Budget
+🔗(https://ashirvad-mishra.github.io/Tourist_Budget/)
 
 ---
 
